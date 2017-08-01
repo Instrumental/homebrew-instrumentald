@@ -2,9 +2,9 @@ class Instrumentald < Formula
   head "https://github.com/Instrumental/instrumentald.git"
   desc "A server agent that provides system monitoring and service monitoring. It's fast, reliable, runs on anything *nix, is simple to configure and deploy, and has a small memory footprint."
   homepage "https://github.com/Instrumental/instrumentald"
-  url "https://github.com/Instrumental/instrumentald/releases/download/v1.0.4/instrumentald_1.0.4_osx.tar.gz"
-  version "1.0.4"
-  sha256 "27206132ad01f186ef00ef6575c8627ce0a97717945fc8612442b2d081cefdf8"
+  url "https://github.com/Instrumental/instrumentald/releases/download/v1.1.0/instrumentald_1.1.0_osx.tar.gz"
+  version "1.1.0"
+  sha256 "483bd5945c4a37308618c7f5b372d7decbaf69809c8070464efe16aba0d784bf"
 
   def install
     # The binary will think it's in one place (/usr/local/bin/), but the lib
